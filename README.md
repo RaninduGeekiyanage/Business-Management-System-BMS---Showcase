@@ -197,31 +197,32 @@ C --> D[🔐 Cross-Cutting Concerns<br/>RBAC + Sanctum + Audit Trail]
 - Barcode scanning
 - Discount application
 - Multi-payment handling
+![POS View](assets/pos.jpg)
 
-📷 assets/pos-view.png
 
 ### 📦 Inventory Dashboard
 - Live stock monitoring
 - Reorder tracking
 - Movement history
 
-📷 assets/inventory-view.png
+![Inventory View](assets/inventory.jpg)
+
 
 ### 🧾 Procurement Workflow
 - PR → PO → GRN lifecycle
 - Approval workflows
 - Serial tracking
 
-📷 assets/grn-view.png
+![GRN View](assets/grn.jpg)
 
 ### 🔐Role-Based Access Control (RBAC)
 
-📷 assets/permission.png
+![Permission View](assets/permission.jpg)
 
 ### 🛒Petty Cash handling
 - Petty Cash handling and management interface.
-- 
-📷 assets/petti_cash.png
+
+![Petty Cash View](assets/petti_cash.jpg)
 
 ### 💰 Financial Reports
 - Trial Balance
@@ -229,7 +230,8 @@ C --> D[🔐 Cross-Cutting Concerns<br/>RBAC + Sanctum + Audit Trail]
 - P&L Reports
 - Audit Logs
 
-📷 assets/finance-report.png
+
+![GL Finance Statment View](assets/gl_fin_statment.jpg)
 
 
 
