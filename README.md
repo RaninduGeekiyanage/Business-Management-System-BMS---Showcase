@@ -8,8 +8,8 @@ This Business Management System (BMS) is designed for retail and wholesale busin
 ## Features
 
 - POS Operations
-Complete retail sales and refunds
-Outstanding collections and customer advances
+ - Complete retail sales and refunds
+ - Outstanding collections and customer advances
 Multi-payment options
 Multi POS account support with multiple cash drawers
 Thermal receipt printing and PDF invoice generation
