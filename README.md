@@ -124,55 +124,33 @@ A --> H[🖨️ Printing & Exports]
 
 ## 🧠 System Workflow
 
- Customer Purchase
-         │
-         ▼
- ┌─────────────────┐
- │ POS Transaction │
- └─────────────────┘
-         │
-         ▼
- ┌─────────────────┐
- │ Inventory Update│
- └─────────────────┘
-         │
-         ▼
- ┌─────────────────┐
- │ GL Posting      │
- └─────────────────┘
-         │
-         ▼
- ┌─────────────────┐
- │ Financial Reports│
- └─────────────────┘
+ ```mermaid
+flowchart TD
+
+A[🛒 Customer Purchase]
+--> B[POS Transaction]
+
+B --> C[Inventory Update]
+
+C --> D[General Ledger Posting]
+
+D --> E[Financial Reports & Analytics]
+```
 
 ## 🏗️ Architecture
 
 ### 🔷 High-Level Architecture
 
-┌──────────────────────────────────────────────┐
-│               PRESENTATION LAYER             │
-│  Livewire Components + Blade Templates       │
-└──────────────────────────────────────────────┘
-                       │
-                       ▼
-┌──────────────────────────────────────────────┐
-│               APPLICATION LAYER              │
-│ Controllers • Services • Business Logic      │
-│ Invoice Engine • GL Posting • Printing       │
-└──────────────────────────────────────────────┘
-                       │
-                       ▼
-┌──────────────────────────────────────────────┐
-│                DOMAIN / DATA LAYER           │
-│ Eloquent Models • MySQL • Migrations         │
-└──────────────────────────────────────────────┘
-                       │
-                       ▼
-┌──────────────────────────────────────────────┐
-│              CROSS CUTTING LAYER             │
-│ Sanctum • RBAC • Audit Trail • Security      │
-└──────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+
+A[🎨 Presentation Layer<br/>Livewire + Blade]
+--> B[⚙️ Application Layer<br/>Controllers + Services]
+
+B --> C[🗄️ Domain/Data Layer<br/>Eloquent + MySQL]
+
+C --> D[🔐 Cross-Cutting Concerns<br/>RBAC + Sanctum + Audit Trail]
+```
 
 ## 🧰 Tech Stack
 ### ⚙️ Backend
