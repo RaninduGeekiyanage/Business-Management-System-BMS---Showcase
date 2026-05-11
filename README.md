@@ -27,19 +27,19 @@ It combines:
 
 ## 🧩 Core Modules
 
-┌───────────────────────────────────────────────┐
-│              BUSINESS MANAGEMENT SYSTEM       │
-├───────────────────────────────────────────────┤
-│                                               │
-│  🛒 POS & SALES                               │
-│  📦 INVENTORY MANAGEMENT                      │
-│  🧾 PROCUREMENT                               │
-│  💰 ACCOUNTING & GL                           │
-│  📊 REPORTING & ANALYTICS                     │
-│  👥 USER & ROLE MANAGEMENT                    │
-│  🖨️ PRINTING & EXPORTS                        │
-│                                               │
-└───────────────────────────────────────────────┘
+```mermaid
+graph TD
+
+A[🏢 Business Management System]
+
+A --> B[🛒 POS & Sales]
+A --> C[📦 Inventory Management]
+A --> D[🧾 Procurement]
+A --> E[💰 Accounting & GL]
+A --> F[📊 Reporting & Analytics]
+A --> G[👥 User & Role Management]
+A --> H[🖨️ Printing & Exports]
+```
 
 ## 🚀 Features
 
