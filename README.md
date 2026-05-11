@@ -1,55 +1,79 @@
 # Business Management System (Mini ERP) with POS
-A modern, scalable Semi ERP with POS system leveraging the TALL stack for seamless retail  &amp; wholesale operations
+
+A modern, scalable Semi ERP with POS system leveraging the TALL stack for seamless retail & wholesale operations.
+
+Built for businesses that need fast transactions, inventory control, procurement workflows, and integrated financial accounting.
 
 ## Description
 
-This Business Management System (BMS) is designed for retail and wholesale businesses, offering a complete suite of tools for transaction processing, inventory control, procurement, and financial management. Built on Laravel 12 with Livewire components, it ensures a responsive, real-time user experience without page reloads. The system supports multi-role access (Cashier, Manager, Accountant, Admin) and integrates dual-run accounting for operational efficiency and compliance. Key workflows include POS sales/refunds, purchase orders, inventory tracking, and GL posting, making it ideal for growing businesses needing robust, audit-ready operations.
+This Business Management System (BMS) is designed for retail and wholesale businesses, offering a complete suite of tools for transaction processing, inventory control, procurement, and financial management. Built on Laravel 12 with Livewire components, it delivers a responsive, real-time experience without page reloads. The system supports multi-role access (Cashier, Manager, Accountant, Admin) and integrates dual-run accounting for operational efficiency and compliance. Key workflows include POS sales/refunds, purchase orders, inventory tracking, and GL posting, making it ideal for growing businesses needing robust, audit-ready operations.
 
 ## Features
 
-- POS Operations
- - Complete retail sales and refunds
- - Outstanding collections and customer advances
-Multi-payment options
-Multi POS account support with multiple cash drawers
-Thermal receipt printing and PDF invoice generation
-Procurement & Supplier Management
+### POS Operations
+
+- Complete retail sales and refund handling
+- Outstanding collections and customer advance tracking
+- Multi-payment methods across cash, cards, credit, and mobile payments
+- Multi POS accounts with multiple cash drawers
+- Thermal receipt printing and PDF invoice generation
+- Credit note creation for returns and adjustments
+
+### Procurement & Supplier Management
 
 - Purchase requests, purchase orders, and goods received notes (GRN)
-Return to supplier workflows
-Utility expense tracking and purchase-related expense management
-Vendor billing and supplier invoice control
-Inventory Control
+- Return-to-supplier workflows
+- Utility and other expense tracking
+- Purchase-related expense management
+- Vendor billing and supplier invoice control
 
-- Stock movement and item tracking across transactions
--  Reorder alerts and inventory replenishment guidance
--  Barcode printing and barcode-based scanning support
--  Serial/batch tracking for items where needed
--  Financial Integration
+### Inventory Control
 
-- General Ledger posting after transactional commits
--  Trial balance, journal reports, and audit trail visibility
--  Credit note processing for customer returns or adjustments
--  Reconciliation-ready accounting workflows
--  Documents & Sales Enablement
+- Stock movement tracking and item-level visibility
+- Reorder alerts and inventory replenishment notifications
+- Barcode printing and barcode-based scanning support
+- Serial/batch tracking for applicable products
+- Item tracking across sales, purchases, returns, and transfers
 
-- Quotation management
--  Proforma invoice handling
--  Customer-facing document workflows for sales and approvals
--  Reporting & Analytics
+### Petty Cash & Expense Management
 
-- Operational dashboards and widgets
--  Sales, inventory, procurement, and financial reports
--  Business insight views for managers and accountants
--  User & Access Control
+- Petty cash handling and cash expense tracking
+- Expense categorization and reconciliation for small payments
+- Cash drawer movement logging and audit-ready history
+
+### Financial Integration
+
+- General Ledger posting after transactional commit
+- Trial balance, journal, and audit trail reports
+- Credit note processing for customer returns or adjustments
+- Reconciliation-ready accounting workflows
+- Dual-run accounting model for stable operational and financial posting
+
+### Documents & Sales Enablement
+
+- Quotation management for customer proposals
+- Proforma invoice handling for pre-order approvals
+- Customer-facing document workflows for sales and approvals
+- Document generation for quotes, invoices, receipts, and credit notes
+
+### Reporting & Analytics
+
+- Operational dashboards and analytics widgets
+- Sales, inventory, procurement, and financial reports
+- P&L and financial statement summaries
+- Business insight views for managers and accountants
+
+### User & Access Control
 
 - Role-based access control (RBAC)
--  Permission-driven module access for Cashier, Manager, Accountant, Admin
--  Printing & Exports
+- Permission-driven module access for Cashier, Manager, Accountant, and Admin
+- Secure access for sensitive finance and reporting areas
 
-- Thermal receipt printing
--  PDF invoice and document generation
--  Excel export support for reports and data extracts
+### Printing & Exports
+
+- Thermal receipt printing for POS terminals
+- PDF invoice and document generation
+- Excel export support for reports and data extracts
 
 ## Core Functionality
 The core revolves around transactional workflows: operational transactions (sales, purchases) are processed first, followed by automatic GL posting for accounting. This ensures business continuity even if accounting steps encounter issues. Modules include POS for front-end sales, back-office procurement for supply chain, inventory for stock oversight, and GL for financial reconciliation.
