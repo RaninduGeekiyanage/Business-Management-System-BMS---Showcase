@@ -7,14 +7,49 @@ This Business Management System (BMS) is designed for retail and wholesale busin
 
 ## Features
 
-- POS Operations: Complete sales, refunds, outstanding collections, and customer advances with thermal/PDF printing.
-- Procurement Management: Purchase requests, orders, goods received notes (GRN), returns, and expense tracking.
-- Inventory Control: Stock movement, reorder alerts, and barcode generation.
-- Financial Integration: General Ledger posting with trial balance, journals, and audit trails.
-- Reporting & Analytics: Operational reports, GL financial statements, and dashboard widgets.
-- User Management: Role-based access control (RBAC) with permissions for secure multi-user environments.
-- Printing & Exports: Support for thermal receipts, PDF invoices, and Excel exports.
-- Quotations & Proforma: Customer-facing document management.
+- POS Operations
+Complete retail sales and refunds
+Outstanding collections and customer advances
+Multi-payment options
+Multi POS account support with multiple cash drawers
+Thermal receipt printing and PDF invoice generation
+Procurement & Supplier Management
+
+- Purchase requests, purchase orders, and goods received notes (GRN)
+Return to supplier workflows
+Utility expense tracking and purchase-related expense management
+Vendor billing and supplier invoice control
+Inventory Control
+
+- Stock movement and item tracking across transactions
+-  Reorder alerts and inventory replenishment guidance
+-  Barcode printing and barcode-based scanning support
+-  Serial/batch tracking for items where needed
+-  Financial Integration
+
+- General Ledger posting after transactional commits
+-  Trial balance, journal reports, and audit trail visibility
+-  Credit note processing for customer returns or adjustments
+-  Reconciliation-ready accounting workflows
+-  Documents & Sales Enablement
+
+- Quotation management
+-  Proforma invoice handling
+-  Customer-facing document workflows for sales and approvals
+-  Reporting & Analytics
+
+- Operational dashboards and widgets
+-  Sales, inventory, procurement, and financial reports
+-  Business insight views for managers and accountants
+-  User & Access Control
+
+- Role-based access control (RBAC)
+-  Permission-driven module access for Cashier, Manager, Accountant, Admin
+-  Printing & Exports
+
+- Thermal receipt printing
+-  PDF invoice and document generation
+-  Excel export support for reports and data extracts
 
 ## Core Functionality
 The core revolves around transactional workflows: operational transactions (sales, purchases) are processed first, followed by automatic GL posting for accounting. This ensures business continuity even if accounting steps encounter issues. Modules include POS for front-end sales, back-office procurement for supply chain, inventory for stock oversight, and GL for financial reconciliation.
@@ -22,18 +57,32 @@ The core revolves around transactional workflows: operational transactions (sale
 ## Features Showcase
 1. POS Sales Interface
 Real-time sales processing with item scanning, discount application, and multi-payment methods.
+![POS View](assets/pos.jpg)
 
-2. Inventory Dashboard
+3. Inventory Dashboard
 Monitor stock levels, reorder points, and movement history with live updates.
+![Inventory View](assets/inventory.jpg)
 
-3. Procurement Workflow
+5. Procurement Workflow
 End-to-end purchase request to GRN process with approval modes and serial tracking.
+![GRN View](assets/grn.jpg)
 
-4. GL Trial Balance Report
-View debit/credit balances across accounts with period-based filtering.
+7. Petty Cash handling
+Petty Cash handling and management interface.
+![Petty Cash View](assets/petti_cash.jpg)
 
-5. Multi-Role Dashboard
+9. GL Finance Statement Report
+View GL Finance Statement Report period-based filtering.
+![GL Finance Statment View](assets/gl_fin_statment.jpg)
+
+
+11. P & L Report
+View  P & L Report with period-based filtering.
+![P&L Report](assets/PandL.jpg)
+
+13. Multi-Role Dashboard
 Role-specific widgets for stats, latest sales, and reorder alerts.
+![permission View](assets/PandL.jpg)
 
 ## Tech Stack
 
@@ -42,12 +91,12 @@ Role-specific widgets for stats, latest sales, and reorder alerts.
 - Database: MySQL (via Laravel migrations)
 - Admin Panel: Filament (forms, tables, widgets, actions)
 - Additional Libraries:
--- DomPDF/MPDF for PDF generation
--- ESCPOS for thermal printing
--- Maatwebsite Excel for exports
--- Picqer PHP Barcode Generator
--- Spatie Laravel Permission for RBAC
--- Laravel Sanctum for API authentication
+-  DomPDF/MPDF for PDF generation
+-  ESCPOS for thermal printing
+-  Maatwebsite Excel for exports
+-  Picqer PHP Barcode Generator
+-  Spatie Laravel Permission for RBAC
+-  Laravel Sanctum for API authentication
 - Build Tools: Vite, Composer, NPM
 
 ## Architecture Diagram
