@@ -1,31 +1,31 @@
-🏢 Business Management System (Mini ERP) with POS
+# 🏢 Business Management System (Mini ERP) with POS
 
 🚀 A modern, scalable Mini ERP + POS platform built with the TALL Stack for seamless retail & wholesale operations.
 
 <p align="center"> <img src="https://img.shields.io/badge/Laravel-12-red?style=for-the-badge&logo=laravel" /> <img src="https://img.shields.io/badge/Livewire-3-purple?style=for-the-badge&logo=livewire" /> <img src="https://img.shields.io/badge/TailwindCSS-4-38BDF8?style=for-the-badge&logo=tailwindcss" /> <img src="https://img.shields.io/badge/Filament-Admin-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" /> <img src="https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge" /> </p>
 
-✨ Overview
+## ✨ Overview
 
 This Business Management System (BMS) is a powerful Semi ERP solution designed for:
 
-🏪 Retail Stores
-📦 Wholesale Businesses
-🧾 Accounting Operations
-🛒 POS-Based Companies
-📊 Inventory-Centric Businesses
+- 🏪 Retail Stores
+- 📦 Wholesale Businesses
+- 🧾 Accounting Operations
+- 🛒 POS-Based Companies
+- 📊 Inventory-Centric Businesses
 
 Built using Laravel 12 + Livewire 3, the system delivers a real-time SPA-like experience without heavy frontend complexity.
 
 It combines:
 
-⚡ Fast POS Transactions
-📦 Inventory Management
-🧾 Procurement Workflows
-💰 Financial Accounting
-📊 Reporting & Analytics
-🔐 Enterprise-grade RBAC
+- ⚡ Fast POS Transactions
+- 📦 Inventory Management
+- 🧾 Procurement Workflows
+- 💰 Financial Accounting
+- 📊 Reporting & Analytics
+- 🔐 Enterprise-grade RBAC
 
-🧩 Core Modules
+## 🧩 Core Modules
 ┌───────────────────────────────────────────────┐
 │              BUSINESS MANAGEMENT SYSTEM       │
 ├───────────────────────────────────────────────┤
@@ -40,72 +40,73 @@ It combines:
 │                                               │
 └───────────────────────────────────────────────┘
 
-🚀 Features
-🛒 POS Operations
-✅ Real-time retail sales & refund processing
-✅ Multi-payment support
-💵 Cash
-💳 Cards
-📱 Mobile Payments
-🧾 Credit Sales
-✅ Outstanding collection tracking
-✅ Customer advance management
-✅ Multiple POS accounts & cash drawers
-✅ Thermal receipt printing
-✅ PDF invoice generation
-✅ Credit note handling
+## 🚀 Features
 
-📦 Inventory Management
-✅ Live stock movement tracking
-✅ Reorder level alerts
-✅ Barcode generation & scanning
-✅ Serial / batch tracking
-✅ Transfer & return tracking
-✅ Inventory visibility across:
-- Sales
-- Purchases
-- Returns
-- Transfers
+### 🛒 POS Operations
+- ✅ Real-time retail sales & refund processing
+- ✅ Multi-payment support
+  - 💵 Cash
+  - 💳 Cards
+  - 📱 Mobile Payments
+  - 🧾 Credit Sales
+- ✅ Outstanding collection tracking
+- ✅ Customer advance management
+- ✅ Multiple POS accounts & cash drawers
+- ✅ Thermal receipt printing
+- ✅ PDF invoice generation
+- ✅ Credit note handling
 
-🧾 Procurement & Supplier Management
-✅ Purchase Requests (PR)
-✅ Purchase Orders (PO)
-✅ Goods Received Notes (GRN)
-✅ Return-to-supplier workflows
-✅ Vendor billing management
-✅ Supplier invoice tracking
-✅ Purchase-related expense management
+### 📦 Inventory Management
+- ✅ Live stock movement tracking
+- ✅ Reorder level alerts
+- ✅ Barcode generation & scanning
+- ✅ Serial / batch tracking
+- ✅ Transfer & return tracking
+- ✅ Inventory visibility across:
+  - Sales
+  - Purchases
+  - Returns
+  - Transfers
 
-💰 Financial Accounting
-✅ Automatic General Ledger posting
-✅ Trial Balance reports
-✅ Journal Entries
-✅ Audit Trails
-✅ Reconciliation workflows
-✅ Dual-run accounting architecture
-✅ Financial statement generation
-✅ Credit note adjustments
+### 🧾 Procurement & Supplier Management
+- ✅ Purchase Requests (PR)
+- ✅ Purchase Orders (PO)
+- ✅ Goods Received Notes (GRN)
+- ✅ Return-to-supplier workflows
+- ✅ Vendor billing management
+- ✅ Supplier invoice tracking
+- ✅ Purchase-related expense management
 
-💵 Petty Cash & Expenses
-✅ Petty cash handling
-✅ Expense categorization
-✅ Cash drawer movement logs
-✅ Audit-ready expense history
+### 💰 Financial Accounting
+- ✅ Automatic General Ledger posting
+- ✅ Trial Balance reports
+- ✅ Journal Entries
+- ✅ Audit Trails
+- ✅ Reconciliation workflows
+- ✅ Dual-run accounting architecture
+- ✅ Financial statement generation
+- ✅ Credit note adjustments
 
-📊 Reporting & Analytics
-✅ Operational dashboards
-✅ Financial summaries
-✅ Inventory reports
-✅ Sales analytics
-✅ Procurement insights
-✅ P&L reports
-✅ Accountant & manager dashboards
+### 💵 Petty Cash & Expenses
+- ✅ Petty cash handling
+- ✅ Expense categorization
+- ✅ Cash drawer movement logs
+- ✅ Audit-ready expense history
 
-👥 User & Access Control
-✅ Role-Based Access Control (RBAC)
-✅ Permission-driven modules
-✅ Secure finance access
-✅ Multi-role system:
+### 📊 Reporting & Analytics
+- ✅ Operational dashboards
+- ✅ Financial summaries
+- ✅ Inventory reports
+- ✅ Sales analytics
+- ✅ Procurement insights
+- ✅ P&L reports
+- ✅ Accountant & manager dashboards
+
+### 👥 User & Access Control
+- ✅ Role-Based Access Control (RBAC)
+- ✅ Permission-driven modules
+- ✅ Secure finance access
+- ✅ Multi-role system:
 
 | Role          | Access                    |
 | ------------- | ------------------------- |
@@ -114,13 +115,13 @@ It combines:
 | 👨‍💻 Admin   | Full System Access        |
 | 📊 Accountant | GL & Financial Operations |
 
-🖨️ Printing & Exports
+### 🖨️ Printing & Exports
 ✅ Thermal receipt printing
 ✅ PDF document generation
 ✅ Excel exports
 ✅ Barcode printing
 
-🧠 System Workflow
+## 🧠 System Workflow
 
  Customer Purchase
          │
@@ -144,8 +145,9 @@ It combines:
  │ Financial Reports│
  └─────────────────┘
 
- 🏗️ Architecture
-🔷 High-Level Architecture
+## 🏗️ Architecture
+
+### 🔷 High-Level Architecture
 
 ┌──────────────────────────────────────────────┐
 │               PRESENTATION LAYER             │
@@ -171,25 +173,25 @@ It combines:
 │ Sanctum • RBAC • Audit Trail • Security      │
 └──────────────────────────────────────────────┘
 
-🧰 Tech Stack
-⚙️ Backend
-PHP 8.2+
-Laravel 12
-Laravel Sanctum
+## 🧰 Tech Stack
+### ⚙️ Backend
+- PHP 8.2+
+- Laravel 12
+- Laravel Sanctum
 
-🎨 Frontend
-Livewire 3
-Alpine.js 3
-Tailwind CSS 4
-Blade Templates
+### 🎨 Frontend
+- Livewire 3
+- Alpine.js 3
+- Tailwind CSS 4
+- Blade Templates
 
-🗄️ Database
-MySQL
+### 🗄️ Database
+- MySQL
 
-🛠️ Admin & UI
-Filament Admin Panel
+### 🛠️ Admin & UI
+- Filament Admin Panel
 
-📚 Libraries & Packages
+## 📚 Libraries & Packages
 | Package                   | Purpose            |
 | ------------------------- | ------------------ |
 | DomPDF / MPDF             | PDF Generation     |
@@ -200,15 +202,59 @@ Filament Admin Panel
 | Laravel Sanctum           | API Authentication |
 
 
-🔐 Security & Compliance
-🔒 Role-Based Access Control (RBAC)
-🔒 Secure API authentication via Sanctum
-🔒 Financial audit trails
-🔒 Transaction reconciliation
-🔒 Idempotent GL posting
-🔒 Operational-first transaction model
+## 🔐 Security & Compliance
+- 🔒 Role-Based Access Control (RBAC)
+- 🔒 Secure API authentication via Sanctum
+- 🔒 Financial audit trails
+- 🔒 Transaction reconciliation
+- 🔒 Idempotent GL posting
+- 🔒 Operational-first transaction model
 
-⚡ Key Highlights
+
+## 📸 Feature Showcase
+
+### 🛒 POS Sales Interface
+- Real-time sales processing
+- Barcode scanning
+- Discount application
+- Multi-payment handling
+
+📷 assets/pos-view.png
+
+### 📦 Inventory Dashboard
+- Live stock monitoring
+- Reorder tracking
+- Movement history
+
+📷 assets/inventory-view.png
+
+### 🧾 Procurement Workflow
+- PR → PO → GRN lifecycle
+- Approval workflows
+- Serial tracking
+
+📷 assets/grn-view.png
+
+### 🔐Role-Based Access Control (RBAC)
+
+📷 assets/permission.png
+
+### 🛒Petty Cash handling
+- Petty Cash handling and management interface.
+- 
+📷 assets/petti_cash.png
+
+### 💰 Financial Reports
+- Trial Balance
+- GL Statements
+- P&L Reports
+- Audit Logs
+
+📷 assets/finance-report.png
+
+
+
+## ⚡ Key Highlights
 
 | Feature                   | Benefit                         |
 | ------------------------- | ------------------------------- |
@@ -219,7 +265,7 @@ Filament Admin Panel
 | 🔐 RBAC Security          | Enterprise-grade access control |
 | 📊 Business Analytics     | Better decision making          |
 
-📈 Project Status
+## 📈 Project Status
 
 + Production Ready
 + Live Retail Deployment
@@ -227,14 +273,14 @@ Filament Admin Panel
 + Financial Reconciliation Enabled
 + POS + Accounting Integrated
 
-🚀 Future Roadmap
+## 🚀 Future Roadmap
 🏭 Production Module
 🏢 Asset Accounting
 📱 Mobile Companion App
 ☁️ Cloud Multi-Tenant Support
 📡 API Integrations
 
-👨‍💻 Development Philosophy
+## 👨‍💻 Development Philosophy
 
 This project follows:
 
@@ -244,7 +290,7 @@ This project follows:
 ✅ Scalable modular design
 ✅ Operational-first accounting model
 
-⭐ Summary
+## ⭐ Summary
 
 A complete Mini ERP + POS ecosystem tailored for growing businesses requiring:
 
