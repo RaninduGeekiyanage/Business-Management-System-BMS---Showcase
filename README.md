@@ -1,166 +1,259 @@
-# Business Management System (Mini ERP) with POS
+🏢 Business Management System (Mini ERP) with POS
 
-A modern, scalable Semi ERP with POS system leveraging the TALL stack for seamless retail & wholesale operations.
+🚀 A modern, scalable Mini ERP + POS platform built with the TALL Stack for seamless retail & wholesale operations.
 
-Built for businesses that need fast transactions, inventory control, procurement workflows, and integrated financial accounting.
+<p align="center"> <img src="https://img.shields.io/badge/Laravel-12-red?style=for-the-badge&logo=laravel" /> <img src="https://img.shields.io/badge/Livewire-3-purple?style=for-the-badge&logo=livewire" /> <img src="https://img.shields.io/badge/TailwindCSS-4-38BDF8?style=for-the-badge&logo=tailwindcss" /> <img src="https://img.shields.io/badge/Filament-Admin-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" /> <img src="https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge" /> </p>
 
-## Description
+✨ Overview
 
-This Business Management System (BMS) is designed for retail and wholesale businesses, offering a complete suite of tools for transaction processing, inventory control, procurement, and financial management. Built on Laravel 12 with Livewire components, it delivers a responsive, real-time experience without page reloads. The system supports multi-role access (Cashier, Manager, Accountant, Admin) and integrates dual-run accounting for operational efficiency and compliance. Key workflows include POS sales/refunds, purchase orders, inventory tracking, and GL posting, making it ideal for growing businesses needing robust, audit-ready operations.
+This Business Management System (BMS) is a powerful Semi ERP solution designed for:
 
-## Features
+🏪 Retail Stores
+📦 Wholesale Businesses
+🧾 Accounting Operations
+🛒 POS-Based Companies
+📊 Inventory-Centric Businesses
 
-### POS Operations
+Built using Laravel 12 + Livewire 3, the system delivers a real-time SPA-like experience without heavy frontend complexity.
 
-- Complete retail sales and refund handling
-- Outstanding collections and customer advance tracking
-- Multi-payment methods across cash, cards, credit, and mobile payments
-- Multi POS accounts with multiple cash drawers
-- Thermal receipt printing and PDF invoice generation
-- Credit note creation for returns and adjustments
+It combines:
 
-### Procurement & Supplier Management
+⚡ Fast POS Transactions
+📦 Inventory Management
+🧾 Procurement Workflows
+💰 Financial Accounting
+📊 Reporting & Analytics
+🔐 Enterprise-grade RBAC
 
-- Purchase requests, purchase orders, and goods received notes (GRN)
-- Return-to-supplier workflows
-- Utility and other expense tracking
-- Purchase-related expense management
-- Vendor billing and supplier invoice control
+🧩 Core Modules
+┌───────────────────────────────────────────────┐
+│              BUSINESS MANAGEMENT SYSTEM       │
+├───────────────────────────────────────────────┤
+│                                               │
+│  🛒 POS & SALES                               │
+│  📦 INVENTORY MANAGEMENT                      │
+│  🧾 PROCUREMENT                               │
+│  💰 ACCOUNTING & GL                           │
+│  📊 REPORTING & ANALYTICS                     │
+│  👥 USER & ROLE MANAGEMENT                    │
+│  🖨️ PRINTING & EXPORTS                        │
+│                                               │
+└───────────────────────────────────────────────┘
 
-### Inventory Control
+🚀 Features
+🛒 POS Operations
+✅ Real-time retail sales & refund processing
+✅ Multi-payment support
+💵 Cash
+💳 Cards
+📱 Mobile Payments
+🧾 Credit Sales
+✅ Outstanding collection tracking
+✅ Customer advance management
+✅ Multiple POS accounts & cash drawers
+✅ Thermal receipt printing
+✅ PDF invoice generation
+✅ Credit note handling
 
-- Stock movement tracking and item-level visibility
-- Reorder alerts and inventory replenishment notifications
-- Barcode printing and barcode-based scanning support
-- Serial/batch tracking for applicable products
-- Item tracking across sales, purchases, returns, and transfers
+📦 Inventory Management
+✅ Live stock movement tracking
+✅ Reorder level alerts
+✅ Barcode generation & scanning
+✅ Serial / batch tracking
+✅ Transfer & return tracking
+✅ Inventory visibility across:
+- Sales
+- Purchases
+- Returns
+- Transfers
 
-### Petty Cash & Expense Management
+🧾 Procurement & Supplier Management
+✅ Purchase Requests (PR)
+✅ Purchase Orders (PO)
+✅ Goods Received Notes (GRN)
+✅ Return-to-supplier workflows
+✅ Vendor billing management
+✅ Supplier invoice tracking
+✅ Purchase-related expense management
 
-- Petty cash handling and cash expense tracking
-- Expense categorization and reconciliation for small payments
-- Cash drawer movement logging and audit-ready history
+💰 Financial Accounting
+✅ Automatic General Ledger posting
+✅ Trial Balance reports
+✅ Journal Entries
+✅ Audit Trails
+✅ Reconciliation workflows
+✅ Dual-run accounting architecture
+✅ Financial statement generation
+✅ Credit note adjustments
 
-### Financial Integration
+💵 Petty Cash & Expenses
+✅ Petty cash handling
+✅ Expense categorization
+✅ Cash drawer movement logs
+✅ Audit-ready expense history
 
-- General Ledger posting after transactional commit
-- Trial balance, journal, and audit trail reports
-- Credit note processing for customer returns or adjustments
-- Reconciliation-ready accounting workflows
-- Dual-run accounting model for stable operational and financial posting
+📊 Reporting & Analytics
+✅ Operational dashboards
+✅ Financial summaries
+✅ Inventory reports
+✅ Sales analytics
+✅ Procurement insights
+✅ P&L reports
+✅ Accountant & manager dashboards
 
-### Documents & Sales Enablement
+👥 User & Access Control
+✅ Role-Based Access Control (RBAC)
+✅ Permission-driven modules
+✅ Secure finance access
+✅ Multi-role system:
 
-- Quotation management for customer proposals
-- Proforma invoice handling for pre-order approvals
-- Customer-facing document workflows for sales and approvals
-- Document generation for quotes, invoices, receipts, and credit notes
+| Role          | Access                    |
+| ------------- | ------------------------- |
+| 🛒 Cashier    | POS Operations            |
+| 👨‍💼 Manager | Reports & Monitoring      |
+| 👨‍💻 Admin   | Full System Access        |
+| 📊 Accountant | GL & Financial Operations |
 
-### Reporting & Analytics
+🖨️ Printing & Exports
+✅ Thermal receipt printing
+✅ PDF document generation
+✅ Excel exports
+✅ Barcode printing
 
-- Operational dashboards and analytics widgets
-- Sales, inventory, procurement, and financial reports
-- P&L and financial statement summaries
-- Business insight views for managers and accountants
+🧠 System Workflow
 
-### User & Access Control
+ Customer Purchase
+         │
+         ▼
+ ┌─────────────────┐
+ │ POS Transaction │
+ └─────────────────┘
+         │
+         ▼
+ ┌─────────────────┐
+ │ Inventory Update│
+ └─────────────────┘
+         │
+         ▼
+ ┌─────────────────┐
+ │ GL Posting      │
+ └─────────────────┘
+         │
+         ▼
+ ┌─────────────────┐
+ │ Financial Reports│
+ └─────────────────┘
 
-- Role-based access control (RBAC)
-- Permission-driven module access for Cashier, Manager, Accountant, and Admin
-- Secure access for sensitive finance and reporting areas
+ 🏗️ Architecture
+🔷 High-Level Architecture
 
-### Printing & Exports
+┌──────────────────────────────────────────────┐
+│               PRESENTATION LAYER             │
+│  Livewire Components + Blade Templates       │
+└──────────────────────────────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│               APPLICATION LAYER              │
+│ Controllers • Services • Business Logic      │
+│ Invoice Engine • GL Posting • Printing       │
+└──────────────────────────────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│                DOMAIN / DATA LAYER           │
+│ Eloquent Models • MySQL • Migrations         │
+└──────────────────────────────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│              CROSS CUTTING LAYER             │
+│ Sanctum • RBAC • Audit Trail • Security      │
+└──────────────────────────────────────────────┘
 
-- Thermal receipt printing for POS terminals
-- PDF invoice and document generation
-- Excel export support for reports and data extracts
+🧰 Tech Stack
+⚙️ Backend
+PHP 8.2+
+Laravel 12
+Laravel Sanctum
 
-## Core Functionality
-The core revolves around transactional workflows: operational transactions (sales, purchases) are processed first, followed by automatic GL posting for accounting. This ensures business continuity even if accounting steps encounter issues. Modules include POS for front-end sales, back-office procurement for supply chain, inventory for stock oversight, and GL for financial reconciliation.
+🎨 Frontend
+Livewire 3
+Alpine.js 3
+Tailwind CSS 4
+Blade Templates
 
-## Features Showcase
-1. POS Sales Interface
-Real-time sales processing with item scanning, discount application, and multi-payment methods.
-![POS View](assets/pos.jpg)
+🗄️ Database
+MySQL
 
-3. Inventory Dashboard
-Monitor stock levels, reorder points, and movement history with live updates.
-![Inventory View](assets/inventory.jpg)
+🛠️ Admin & UI
+Filament Admin Panel
 
-5. Procurement Workflow
-End-to-end purchase request to GRN process with approval modes and serial tracking.
-![GRN View](assets/grn.jpg)
-
-7. Petty Cash handling
-Petty Cash handling and management interface.
-![Petty Cash View](assets/petti_cash.jpg)
-
-9. GL Finance Statement Report
-View GL Finance Statement Report period-based filtering.
-![GL Finance Statment View](assets/gl_fin_statment.jpg)
+📚 Libraries & Packages
+| Package                   | Purpose            |
+| ------------------------- | ------------------ |
+| DomPDF / MPDF             | PDF Generation     |
+| ESCPOS                    | Thermal Printing   |
+| Maatwebsite Excel         | Excel Exports      |
+| Picqer Barcode Generator  | Barcode Printing   |
+| Spatie Laravel Permission | RBAC               |
+| Laravel Sanctum           | API Authentication |
 
 
-11. P & L Report
-View  P & L Report with period-based filtering.
-![P&L Report](assets/PandL.jpg)
+🔐 Security & Compliance
+🔒 Role-Based Access Control (RBAC)
+🔒 Secure API authentication via Sanctum
+🔒 Financial audit trails
+🔒 Transaction reconciliation
+🔒 Idempotent GL posting
+🔒 Operational-first transaction model
 
-13. Multi-Role Dashboard
-Role-specific widgets for stats, latest sales, and reorder alerts.
-![permission View](assets/PandL.jpg)
+⚡ Key Highlights
 
-## Tech Stack
+| Feature                   | Benefit                         |
+| ------------------------- | ------------------------------- |
+| ⚡ Livewire SPA Experience | Fast & reactive UI              |
+| 🧾 Integrated Accounting  | Automatic GL posting            |
+| 📦 Inventory Tracking     | Real-time stock control         |
+| 🛒 POS Optimization       | Faster checkout experience      |
+| 🔐 RBAC Security          | Enterprise-grade access control |
+| 📊 Business Analytics     | Better decision making          |
 
-- Backend: PHP 8.2+, Laravel 12 Framework
-- Frontend: Livewire 3 (with Flux/Volt), Alpine.js 3, Tailwind CSS 4
-- Database: MySQL (via Laravel migrations)
-- Admin Panel: Filament (forms, tables, widgets, actions)
-- Additional Libraries:
--  DomPDF/MPDF for PDF generation
--  ESCPOS for thermal printing
--  Maatwebsite Excel for exports
--  Picqer PHP Barcode Generator
--  Spatie Laravel Permission for RBAC
--  Laravel Sanctum for API authentication
-- Build Tools: Vite, Composer, NPM
+📈 Project Status
 
-## Architecture Diagram
++ Production Ready
++ Live Retail Deployment
++ Multi-Role Operations
++ Financial Reconciliation Enabled
++ POS + Accounting Integrated
 
-[Presentation Layer]
-    Livewire Components (UI/UX)
-    Blade Templates
+🚀 Future Roadmap
+🏭 Production Module
+🏢 Asset Accounting
+📱 Mobile Companion App
+☁️ Cloud Multi-Tenant Support
+📡 API Integrations
 
-[Application Layer]
-    Controllers (API/Export)
-    Services (Business Logic: Invoice, Print, GL Posting)
+👨‍💻 Development Philosophy
 
-[Domain/Data Layer]
-    Eloquent Models
-    Database Migrations
+This project follows:
 
-[Cross-Cutting]
-    Authentication (Sanctum)
-    Permissions (Spatie RBAC)
-    GL Reconciliation & Idempotency
+✅ Clean Architecture Principles
+✅ Service-Based Business Logic
+✅ Transaction-safe workflows
+✅ Scalable modular design
+✅ Operational-first accounting model
 
-## Architecture Layers
+⭐ Summary
 
-1. Presentation Layer: Handles user interfaces with Livewire components and Blade views for dynamic, reactive interactions.
-2. Application Layer: Manages business logic through controllers and services, including transaction processing and GL hooks.
-3. Domain/Data Layer: Core data models and migrations for entities like sales, inventory, and GL accounts.
-4. Cross-Cutting Concerns: Security (auth/permissions), reconciliation for accounting integrity, and idempotent posting to prevent duplicates.
+A complete Mini ERP + POS ecosystem tailored for growing businesses requiring:
 
-## Tech Stack Highlights
+Fast retail operations
+Accurate inventory control
+Integrated accounting
+Procurement workflows
+Real-time reporting
+Enterprise-grade security
 
-- Laravel 12: Latest framework with enhanced performance and security features.
-- TALL Stack: Tailwind for styling, Alpine.js for reactivity, Laravel for backend, Livewire for seamless SPA-like experience without JavaScript complexity.
-- Filament: Modern admin panel for rapid UI development of forms, tables, and reports.
-- Integrated Printing: Supports thermal and PDF outputs for receipts/invoices, crucial for retail environments.
-- Scalable Permissions: Fine-grained RBAC ensures secure access across roles.
-- Real-Time GL: Post-commit accounting integration allows operational-first workflows with automatic financial tracking.
-
-## Privacy & Security Note
-The system employs role-based access control (RBAC) via Spatie Laravel Permission, ensuring users only access authorized features. API endpoints are secured with Laravel Sanctum. GL operations include audit trails and reconciliation snapshots for financial integrity and compliance. All transactions are logged for traceability, and sensitive data is handled per Laravel's security best practices.
-
-## Project Status
-Production Ready - Currently in use for live retail operations with comprehensive testing guides and user manuals. Supports POS-first transactions with parallel GL posting, suitable for small to medium businesses expanding to semi-ERP capabilities. Future roadmap includes enhanced production and asset accounting.
+Built for scalability, reliability, and real-world business operations.
 
