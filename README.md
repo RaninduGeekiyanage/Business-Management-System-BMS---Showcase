@@ -26,6 +26,7 @@ It combines:
 - 🔐 Enterprise-grade RBAC
 
 ## 🧩 Core Modules
+
 ┌───────────────────────────────────────────────┐
 │              BUSINESS MANAGEMENT SYSTEM       │
 ├───────────────────────────────────────────────┤
